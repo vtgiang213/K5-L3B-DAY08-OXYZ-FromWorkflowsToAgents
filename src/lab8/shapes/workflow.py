@@ -31,7 +31,6 @@ from __future__ import annotations
 
 from lab8.schemas import RunResult, Budget, make_run_id
 from lab8.durability import issue_refund
-from lab8.shapes.common import not_implemented
 from lab8.db import connect
 from lab8.trace import Trace
 from lab8.shapes.common import finish
@@ -51,6 +50,7 @@ def run_claim(
     crash_at: str | None = None,
 ) -> RunResult:
     # TODO CP2 (student): thay stub này bằng shape workflow theo các bước ở docstring đầu file.
+    # TODO CP3 (student): truyền crash_at vào durability.issue_refund, không bắt InjectedCrash.
     conn = connect(store_path)
     budget = Budget()
     trace = Trace(make_run_id("workflow", claim_id, seed))
@@ -82,7 +82,7 @@ def run_claim(
                 proposal_amount=0,
                 budget=budget,
                 trace=trace,
-                error_reason="misssing order id",
+                error_reason="missing_order_id",
             )
         
         budget.add_tool(tool_cost())
@@ -94,7 +94,7 @@ def run_claim(
 
         if not order_view["visible"]:
             reason = order_view.get("reason")
-            trace.add("decision", {"status": "escalated", "reason": "reason"})
+            trace.add("decision", {"status": "escalated", "reason": reason})
             return finish(
                 conn,
                 shape="workflow",
@@ -162,7 +162,3 @@ def run_claim(
         )
     finally:
         conn.close()
-
-    # TODO CP3 (student): truyền crash_at vào durability.issue_refund, không bắt InjectedCrash.
-    del store_path, crash_at
-    return not_implemented("workflow", claim_id, seed)
