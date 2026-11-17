@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: OXYZ
 - Thành viên: xem `TEAM.md`
-- Commit chốt (trùng `report/team/decision_adr.md`): 61752ba
+- Commit chốt (trùng `report/team/decision_adr.md`): 75014a0
 
 ## 2. Mục tiêu và cách tiếp cận
 

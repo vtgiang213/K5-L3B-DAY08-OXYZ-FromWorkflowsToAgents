@@ -5,7 +5,7 @@
 - Tên nhóm: OXYZ
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`
-- URL repo, nhánh nộp, commit chốt: `https://github.com/vtgiang213/K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`, nhánh `main`
+- URL repo, nhánh nộp, commit chốt: `https://github.com/vtgiang213/K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`, nhánh `main`, commit `75014a0`
 
 ## Thành viên
 
