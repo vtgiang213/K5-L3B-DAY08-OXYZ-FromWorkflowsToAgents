@@ -37,7 +37,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Đinh Quốc Việt | Single agent | abff74b, a8da06e | `src/tests/test_single_shape.py` |
 
 ## Cá nhân
 
