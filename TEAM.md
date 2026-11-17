@@ -4,7 +4,7 @@
 
 - Tên nhóm: OXYZ
 - Lớp: L3B
-- Repo nhóm: `K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
+- Repo nhóm: `K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`
 - URL repo, nhánh nộp, commit chốt: `https://github.com/vtgiang213/K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`, nhánh `main`
 
 ## Thành viên
@@ -12,6 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Trường Giang | - | - | vtgiang213 | Workflow + Orchestrator + Tích hợp |
+|   1 | Vương Trường Giang | 2A202603834      | 26ai.giangvt@vinuni.edu.vn      | vtgiang213        |   Workflow + Integration  |
 |   2 | Đinh Quốc Việt | 2A202603885 | 26ai.vietdq3@vinuni.edu.vn | KemmVSAI | Single agent |
 |   3 | Vũ Quang Hải | 2A202603935 | haivq25@gmail.com | HaiVuQ | An toàn ledger + đánh giá |
 
@@ -38,9 +39,9 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Trường Giang (`vtgiang213`) | Workflow + Orchestrator + Tích hợp | `694672e`, `d64c2c3` | `src/tests/test_team_shapes.py` |
 | Đinh Quốc Việt (`KemmVSAI`) | Single agent | `abff74b`, `dff1807` | `src/tests/test_team_shapes.py` |
 | Vũ Quang Hải (`HaiVuQ`) | An toàn ledger + đánh giá | `61752ba` | `src/tests/test_team_shapes.py` |
+| Vương Trường Giang | Workflow + tích hợp | `0655071`, `a50e2b3`, `1b0bdae` | `test_workflow_crash_before_effect_then_retry` (`src/tests/test_team_workflow.py`) |
 
 ## Cá nhân
 
