@@ -38,6 +38,7 @@ Gợi ý chia vai:
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
 | Vương Trường Giang | Workflow + tích hợp | `0655071`, `a50e2b3`, `1b0bdae` | `test_workflow_crash_before_effect_then_retry` (`src/tests/test_team_workflow.py`) |
+| Đinh Quốc Việt | Single agent | abff74b, a8da06e | `src/tests/test_single_shape.py` |
 
 ## Cá nhân
 
