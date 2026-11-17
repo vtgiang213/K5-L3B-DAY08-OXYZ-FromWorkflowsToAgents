@@ -2,16 +2,16 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Tên nhóm: OXYZ
+- Lớp: L3B
+- Repo nhóm: `https://github.com/vtgiang213/K5-L3B-DAY08-OXYZ-FromWorkflowsToAgents`
+- URL repo, nhánh nộp, commit chốt: 
 
 ## Thành viên
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
+|   1 | Vương Trường Giang | 2A202603834      | 26ai.giangvt@vinuni.edu.vn      | vtgiang213        |   Workflow + Integration  |
 |   2 | Đinh Quốc Việt | 2A202603885 | 26ai.vietdq3@vinuni.edu.vn | KemmVSAI | Single agent |
 
 | Người | Phần việc chính | Đầu ra và kiểm tra |
@@ -37,6 +37,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
+| Vương Trường Giang | Workflow + tích hợp | `0655071`, `a50e2b3`, `1b0bdae` | `test_workflow_crash_before_effect_then_retry` (`src/tests/test_team_workflow.py`) |
 | Đinh Quốc Việt | Single agent | abff74b, a8da06e | `src/tests/test_single_shape.py` |
 
 ## Cá nhân
