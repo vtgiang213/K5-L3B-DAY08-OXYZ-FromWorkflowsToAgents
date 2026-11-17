@@ -29,6 +29,7 @@
 ## 5. Công cụ AI đã dùng
 
 - Dùng Codex để giải thích yêu cầu, gợi ý code workflow, viết test crash, đọc lỗi pytest và hỗ trợ xử lý xung đột Git.
+
 ## 6. Tự đánh giá
 
-- Đã thực hiện phần workflow và bước đầu xử lý tích hợp.
+- Đã thực hiện phần workflow, bổ sung test crash và tích hợp code của nhóm. Hiểu rõ hơn cách tách việc tính tiền khỏi model, vai trò của approval và khả năng chạy lại an toàn khi xảy ra crash.
