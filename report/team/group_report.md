@@ -35,7 +35,7 @@ Bảng so sánh 4 shape trên bộ public (`src/reports/benchmark.json`, 14 clai
 | `swarm` | 0.986 | 0.929 | 0.929–1.000 | 0.000816 | 49.57 | 2.80 | 3.0 |
 
 - **Crash safety (`src/reports/crash.json`):** `20/20` (`CR-01` đến `CR-20`, gồm `before_effect`, `after_effect_before_checkpoint`, `after_checkpoint`, `amount_conflict_on_retry`, `retry_without_approval`).
-- **Tự kiểm hidden:** Không có thư mục `student_drop/` trong repo tại thời điểm chạy CP5.
+- **Tự kiểm hidden (`src/reports/hidden_selfcheck.json`):** Chạy `workflow`, `single` và `orchestrator` trên 40 claim × 5 seed (200 trial mỗi shape). Mỗi shape ghi nhận 0 trial lỗi chạy, 0 lỗi trace được báo và 0 trial nghi lộ secret theo các dấu hiệu công cụ quét. Bộ `student_drop/` không có nhãn, nên kết quả không có pass rate và không thay thế kết quả chấm hidden chính thức.
 
 Quyết định kiến trúc và lý do: xem `report/team/decision_adr.md`. Phiếu nghiên cứu và ablation: xem `report/team/research_card.md`.
 
@@ -50,7 +50,7 @@ Chi tiết đóng góp của từng thành viên nằm trong `TEAM.md` (bảng �
 
 ## 7. Hạn chế và hướng cải thiện
 
-MockLLM không phải model sản xuất; latency là `unavailable`. Các số đo chi phí là VND mô phỏng theo `src/config/pricing.yaml`, chưa phản ánh độ trễ mạng hay chi phí prompt thực tế của LLM. Hướng cải thiện: đánh giá thêm trên bộ hidden `student_drop/` khi có dữ liệu và kiểm thử với LLM thật có cơ chế rate-limit/retry.
+MockLLM không phải model sản xuất; latency là `unavailable`. Các số đo chi phí là VND mô phỏng theo `src/config/pricing.yaml`, chưa phản ánh độ trễ mạng hay chi phí prompt thực tế của LLM. Tự kiểm trên `student_drop/` không có nhãn nên không đo được độ chính xác; hướng cải thiện là đánh giá bằng grader có nhãn và kiểm thử với LLM thật có cơ chế rate-limit/retry.
 
 ## 8. Tài liệu tham khảo
 

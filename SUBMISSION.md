@@ -74,13 +74,13 @@ Chạy trong `src/`:
 
 ## Checklist
 
-- [ ] Đổi tên repo theo đúng quy ước `K5-L3A-DAY08-…`.
-- [ ] Điền `TEAM.md` ở root: thông tin nhóm, thành viên, bảng đóng góp.
-- [ ] Mỗi thành viên có file báo cáo đã đổi tên đúng định dạng `report/team/MSSV_HoTen.md`.
-- [ ] `report/team/group_report.md`, `decision_adr.md`, `research_card.md` đã điền đủ.
-- [ ] Mỗi thành viên có commit kỹ thuật và ít nhất một test trong lịch sử branch nộp bài.
-- [ ] Trong `src/`: `python -m pytest -q` xanh; có `reports/benchmark.json` và `reports/crash.json` do công cụ sinh ra.
-- [ ] Trong `src/`: `python -m lab8.check_submission` ra `0 FAIL`.
-- [ ] Không commit secret, password, file `.env`, trace hay file `.sqlite`.
-- [ ] Đã push lên GitHub; repo mở được cho người chấm.
-- [ ] Mọi thành viên đã nộp cùng link repo trên LMS trước deadline.
+- [x] Đổi tên repo theo đúng quy ước `K5-L3A-DAY08-…`.
+- [x] Điền `TEAM.md` ở root: thông tin nhóm, thành viên, bảng đóng góp.
+- [x] Mỗi thành viên có file báo cáo đã đổi tên đúng định dạng `report/team/MSSV_HoTen.md`.
+- [x] `report/team/group_report.md`, `decision_adr.md`, `research_card.md` đã điền đủ.
+- [x] Mỗi thành viên có commit kỹ thuật và ít nhất một test trong lịch sử branch nộp bài.
+- [x] Trong `src/`: `python -m pytest -q` xanh; có `reports/benchmark.json` và `reports/crash.json` do công cụ sinh ra.
+- [x] Trong `src/`: `python -m lab8.check_submission` ra `0 FAIL`.
+- [x] Không commit secret, password, file `.env`, trace hay file `.sqlite`.
+- [x] Đã push lên GitHub; repo mở được cho người chấm.
+- [x] Mọi thành viên đã nộp cùng link repo trên LMS trước deadline.
