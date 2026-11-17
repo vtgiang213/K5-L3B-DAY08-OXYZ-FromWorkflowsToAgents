@@ -23,7 +23,7 @@
 ## 4. Bằng chứng
 
 - Commit trên branch hiện tại: `0655071` (triển khai workflow), `a50e2b3` (chỉnh thông tin lỗi).
-- Code: `src/lab8/shapes/workflow.py`; test mới: `src/tests/test_team_workflow.py`. Test `test_workflow_crash_before_effect_then_retry` đã chạy pass; cần bổ sung hash commit sau khi commit.
+- Test: `test_workflow_crash_before_effect_then_retry` trong `src/tests/test_team_workflow.py` đã chạy pass; commit `1b0bdae`.
 - Trước khi thêm test mới, nhóm đã chạy test host: 54 passed; test student: 248 passed; crash suite: 20/20.
 
 ## 5. Công cụ AI đã dùng
